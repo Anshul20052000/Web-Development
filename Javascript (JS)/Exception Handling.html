@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var a = 100;
+            var b = 0;
+            try{
+                if(b == 0)
+                {
+                    throw("Dvide by Zero Error");
+                }
+                else
+                {
+                    c = a/b;
+                    document.write(c);
+                }
+            }
+            catch(e)
+            {
+                alert("Error" + e);
+            }
+            finally{
+                document.write("<br>This will be Executed no matter what");
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

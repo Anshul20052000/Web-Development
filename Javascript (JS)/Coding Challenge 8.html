@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var name = "ABC Laptop";
+            function discount(price,category)
+            {
+                if(price >= 1000  || category == "Electronics")
+                {
+                    document.write("You have a 10% Discount!...");
+                }
+                else
+                {
+                    document.write("Sorry! you have no Discount...");
+                }
+                document.write("<br>");
+            }
+            discount(1000,"Electronics");
+            discount(123456,"N");
+            discount(1,"Electronics");
+            discount(100,"adsfg");
+        </script>
+    </head>
+</html>

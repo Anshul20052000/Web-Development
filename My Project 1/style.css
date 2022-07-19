@@ -1,0 +1,89 @@
+body{
+    background-image: url("https://cdn.wallpapersafari.com/66/39/xFpfVU.jpg");
+}
+h2{
+    color: darkgreen;
+    font-family: Snell Roundhand, cursive;
+    font-style: italic;
+    font-size: 3em;
+}
+#p1{
+    color: rgb(35, 0, 192);
+}
+#p2{
+    color: rgba(255,0,0);
+    font-family: Snell Roundhand, cursive;
+}
+}
+.centre{
+    color: rgb(19, 255, 19);
+}
+h1{
+    background-color: rgb(81, 51, 190);
+    padding-left: 5px;
+    margin-top: 20px;
+}
+a:link{
+    color: rgb(34, 220, 233);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: floralwhite;
+}
+a:visited{
+    color: crimson;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: floralwhite;
+}
+a:hover{
+    color: darkgreen;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: floralwhite;
+}
+a:active{
+    color: darkturquoise;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    background-color: floralwhite;
+}
+.top-banner{
+    color: gold;
+}
+.Line1{
+    color: red;
+}
+.line2{
+    color: blue;
+}
+.container{
+    display: flex;
+    background-color: crimson;
+    flex-wrap: wrap;
+}
+.a{
+    background-color: red;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}
+.b{
+    background-color: green;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}
+.c{
+    background-color: blue;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}

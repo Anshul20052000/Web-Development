@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function change()
+            {
+                var text = document.getElementById("in1").value;
+                document.getElementById("label1").innerHTML = text;
+            }
+        </script>
+    </head>
+    <body>
+        <label id="label1">This is the Label</label>
+        <input id="in1" type="text" placeholder="Enter a Text"></input>
+        <button id="b1" onclick="change()">Click Here</button>
+    </body>
+</html>

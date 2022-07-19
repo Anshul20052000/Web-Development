@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title id="t1">This is the Title</title>
+    </head>
+    <body>
+        <div id="div1">
+            <p id="p1">This is Para1</p>
+        </div>
+        <script type="text/javascript">
+            var para = document.createElement("p");
+            var paraTextNode = document.createTextNode("This is the New Para created by JS");
+            para.appendChild(paraTextNode);
+            var e = document.getElementById("div1");
+            e.appendChild(para);
+        </script>
+    </body>
+</html>

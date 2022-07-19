@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var x = "My name is Anshul Verma";
+            document.write(x);
+            document.write("<br>");
+            document.write(x.indexOf("Anshul"));
+            document.write("<br>");
+            var pos = x.search("Anshul");
+            document.write(pos);
+            document.write("<br>");
+            x = "My name is Anshul Verma, and my first name is Anshul.";
+            document.write(x.indexOf("Anshul"));
+            document.write("<br>");
+            pos = x.search("Anshul");
+            document.write(pos);
+            document.write("<br>"); 
+            var y = x.slice(1,11);
+            document.write(y);
+            document.write("<br>");
+            var z = x.substr(11,6);
+            document.write(z);
+            document.write("<br>");
+            var p = x.replace("Anshul","Esika");
+            document.write(p);
+            document.write("<br>");
+            document.write(x);
+            document.write("<br>");
+            var q = x.toUpperCase();
+            var r = x.toLowerCase();
+            document.write(q);
+            document.write("<br>");
+            document.write(r);
+        </script>
+    </head>
+</html>

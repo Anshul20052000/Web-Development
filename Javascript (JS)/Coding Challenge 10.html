@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var Rating = [5,4,3,2,1];
+            function rating_giver(rating)
+            {
+                switch(rating)
+                {
+                    case 1 :
+                        document.write("Very Poor");
+                        break;
+                    case 2 :
+                        document.write("Poor");
+                        break;
+                    case 3 :
+                        document.write("Good");
+                        break;
+                    case 4 :
+                        document.write("Very Good");
+                        break;
+                    case 5 :
+                        document.write("Excellent");
+                        break;
+                }
+            }
+            for(var i = 0; i < 5; i++)
+            {
+                rating_giver(Rating[i]);
+                document.write("<br>");
+            }
+        </script>
+    </head>
+</html>

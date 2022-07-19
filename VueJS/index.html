@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  rel="stylesheet" type="text/css" href="style.css"> 
+        <!-- development version, includes helpful console warnings -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            {{ message }}
+            {{ name }}
+            The Final Price is : {{ discount() }}
+            The Final Price is : {{ discount(200) }}
+            <img v-bind:src="path">
+            <a v-bind:href="link">This is the Link</a>
+            <br><br><br>
+            {{ temp }}
+            <button v-on:click.once="inc">+</button>
+            <button v-on:click="dec">-</button>
+            <br><br>
+            <input type="text" v-on:keyup="keypressed">
+            <br><br>
+            <input type="text" v-model="message2">
+                {{ message2 }}
+            <br><br><br>
+            <div v-bind:class="{status:status}">Hi There</div>
+            <button v-on:click="status = !status">Click Here</button>
+            <br><br><br>
+            <h1 v-if="gate">Gate Open</h1>
+            <h1 v-if="!gate">Gate Closed</h1>
+            <button v-on:click="gate = !gate">Open/Close</button>
+            <br><br>
+            <div class="a">
+                {{ Students }}
+                <br>
+                {{ Students[0] }} <br>
+                {{ Students[1] }} <br>
+                {{ Students[2] }} <br>
+                {{ Students[3] }} <br>
+                {{ Students[4] }} <br>
+                {{ Students[5] }} <br>
+                {{ Students[6] }} <br>
+                <br><br>
+                <p v-for="Student in Students">
+                    {{ Student }}
+                </p>
+                <br><br>
+                <p v-for="Player in Players">
+                    {{ Player }}
+                </p>
+                <br><br>
+                <p v-for="Player in Players">
+                    {{ Player.Name }} : {{ Player.Sccre}}
+                </p>
+            </div>
+            <br><br>
+            <div> 
+                {{ Value }} 
+                {{ Price }}
+            </div>
+               
+
+            <div>
+                <mycomponent></mycomponent>
+            </div>
+
+            <div>
+                <input type="text" ref="principle">
+                <button v-on:click="intrest()">Calculate</button>
+                <p>{{ intr }}</p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="source">
+            {{ Value }}
+            {{ Price }}
+        </div>
+        <div id="destination">
+            {{ Value }}
+            {{ fun1() }}
+        </div>
+
+        
+
+        <script type="text/javascript" src="index.js" ></script>
+        <script type="text/javascript" src="Multiple Vue.js" ></script>
+    </body>
+</html>

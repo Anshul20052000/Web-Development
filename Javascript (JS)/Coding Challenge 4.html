@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var Car = {
+                color : "White",
+                price : 4500,
+                capacity : 1200,
+                state : "stopped"
+            }
+            document.write(Car.price);
+            Car.price = 5400;
+            document.write(Car.price);
+            function display(){
+                document.write("Hello There...!")
+            }
+            function start()
+            {
+                Car.state = "Started";
+                document.write(Car.state);
+            }
+        </script>
+        <button onclick="display()">Click Here</button>
+        <button onclick="start()">Click Here</button>
+    </head>
+    <body>
+
+    </body>
+</html>

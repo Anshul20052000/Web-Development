@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var grade = ["A","B","C","D","E","ADSF"];
+            function Grade_Calculator(Grade)
+            {
+                switch(Grade)
+                {
+                    case "A" :
+                        document.write("Excellent");
+                        break;
+                    case "B" :
+                        document.write("Good");
+                        break;
+                    case "C" :
+                        document.write("Can do Better");
+                        break;
+                    case "D" :
+                        document.write("Need Improvement");
+                        break;
+                    case "E" :
+                        document.write("Poor Performance");
+                        break;
+                    default :
+                        document.write("Wrong Grade");
+                }
+            }
+            for(var i = 0; i <= 5; i++)
+            {
+                Grade_Calculator(grade[i]);
+                document.write("<br>");
+            }
+        </script>
+    </head>
+</html>

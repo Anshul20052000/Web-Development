@@ -1,0 +1,220 @@
+h1{
+    color: firebrick;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 70px;
+}
+h2{
+    color: darkviolet;
+    font-size: 2.5em;
+}
+h3{
+    color: dimgrey;
+}
+h4{
+    color: dodgerblue;
+}
+h5{
+    color: rebeccapurple;
+}
+h6{
+    color: seagreen;
+}
+
+
+#p1{
+    color: hotpink;
+}
+#p2{
+    color: indigo;
+}
+#p3{
+    color: lawngreen;
+}
+#p4{
+    color: lightseagreen;
+}
+
+#p5{
+    color: rgb(255,0,0);
+}
+#p6{
+    color: rgb(0,255,0);
+}
+#p7{
+    color: #ffff12;
+}
+#p8{
+    color: rgb(255,0,123);
+}
+
+
+
+.center{
+    color: #f50057;
+}
+
+body{
+   background-color :rgba(253, 0, 123, 0.15);
+   background-image: url("https://i.redd.it/vdhgv54ndnj21.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: 1550px;
+}
+
+.button{
+    background-color: lawngreen;
+}
+
+.material-icons-outlined{
+    border: 10px;
+    padding: 10px;
+}
+
+a:link{
+    color: blue; 
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: crimson;
+}
+a:visited{
+    color:chartreuse;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: crimson;
+}
+a:hover{
+    color: rgb(255, 2, 234);
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: crimson;
+}
+a:active{
+    color:gold;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    background-color: crimson;
+}
+
+.Top-Banner{
+    color: crimson;
+    background-color: cyan;
+}
+
+.line1{
+    color: darkblue;
+    background-color: darkgrey;
+}
+
+.line2{
+    color: darkgreen;
+    background-color: fuchsia;
+}
+
+
+.Container1{
+    background-color: chartreuse;
+    padding: 20px;
+}
+.a1{
+    background-color: green;
+    min-width: 150px;
+    height: 150px;
+}
+.a2{
+    background-color: red;
+    min-width: 150px;
+    height: 150px;
+}
+.a3{
+    background-color: blue;
+    min-width: 150px;
+    height: 150px;
+}
+
+.Container2{
+    display: flex;
+    background-color: chartreuse;
+    flex-direction: column;
+}
+.b1{
+    background-color: green;
+    width: 300px;
+    height: 150px;
+}
+.b2{
+    background-color: red;
+    width: 600px;
+    height: 150px;
+}
+.b3{
+    background-color: blue;
+    min-width: 150px;
+    height: 150px;
+}
+
+.Container3{
+    display: flex;
+    background-color: chartreuse;
+    flex-wrap: wrap;
+}
+.c1{
+    background-color: green;
+    min-width: 500px;
+    height: 150px;
+    flex-grow: 1;
+}
+.c2{
+    background-color: red;
+    min-width: 500px;
+    height: 150px;
+    flex-grow: 1;
+}
+.c3{
+    background-color: blue;
+    min-width: 500px;
+    height: 150px;
+    flex-grow: 1;
+}
+
+.Container5{
+    display: flex;
+    background-color: chartreuse;
+    flex-wrap: wrap;
+}
+.d1{
+    background-color: green;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}
+.d2{
+    background-color: red;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}
+.d3{
+    background-color: blue;
+    min-width: 200px;
+    height: 150px;
+    flex-grow: 1;
+}
+
+.Container4{
+    display: flex;
+    background-color: chartreuse;
+    flex-wrap: wrap;
+}

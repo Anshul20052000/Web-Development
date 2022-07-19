@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p style = "color : red" id="para1"></p>
+        <p style = "color : blue" id="para2"></p>
+        <p style = "color : green" id="para3"></p>
+        <script type="text/javascript">
+            document.getElementById("para1").innerHTML = "This is a Paragraph defined inside javascript";
+            var x = document.getElementsByTagName("p");
+            document.write(x);
+            var y = document.getElementsByTagName("p")[2].innerHTML = "Accessing Element by Tag Name";
+            document.write(y);
+        </script>
+    </body>
+</html>

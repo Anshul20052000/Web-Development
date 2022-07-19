@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var numbers = ["1234567890","1234567657890","1234567"];
+            function check(number)
+            {
+                try
+                {
+                    if(number.length != 10)
+                    {
+                        throw("Please Enter a 10 digit Number");
+                    }
+                    else
+                    {
+                        document.write(number);
+                    }
+                }
+                catch(e)
+                {
+                    alert("Error" + e);
+                }
+                finally{
+                    document.write("<br>This is Always going to be Executed....")
+                }
+            }
+            for(var i = 0; i < 3; i++)
+            {
+                check(numbers[i]);
+                document.write("<br>");
+            }
+        </script>
+    </head>
+</html>

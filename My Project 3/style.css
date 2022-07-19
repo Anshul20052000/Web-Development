@@ -1,0 +1,157 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+.menu{
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding-left: 1.0em;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.image-container{
+    display: flex;
+    position:relative;
+    text-align: center;
+}
+#banner-image{
+    width: 100%;
+    opacity: 0.9;
+}
+.banner-title{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    color: red;
+    font-size: 70px;
+}
+.banner-subtitle{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    color: gold;
+    font-size: 50px;
+}
+
+.skill-heading-container{
+    width: 100%;
+    height: 70px;
+    background-color: crimson;
+    margin-top: 50px;
+}
+.skill-heading{
+    padding-top: 10px;
+    padding-left: 45%;
+    font-size: 45px;
+    color: white;
+}
+.skill-container{
+    display: flex;
+    max-width: 100%;
+    height: 550px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill1{
+    display: flex;
+    min-width: 33%;
+    flex-wrap: wrap;
+}
+#sk-image{
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.skill-text{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.portfolio-heading{
+    display: flex;
+    width: 100%;
+    background-color: crimson;
+    margin-top: 70px;
+    height: 70px;
+}
+.portfolio-title{
+    color: white;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-left: 41%;
+}
+
+.portfolio-container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.previous-work1{
+    display: flex;
+    width: 100%;
+}
+#portfolio-img{
+    width: 600px;
+    padding: 50px;
+}
+.work-title{
+    position: relative;
+    margin-top: 140px;
+    font-size: 45px;
+    text-align: center;
+}
+.work-description{
+    position: relative;
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    align-self: auto;
+}
+
+.client-name{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.client-designation{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: gray;
+}
+.client-testimonial{
+    font-size: 19px;
+    text-align: center;
+    color : gray;
+    padding-top: 5px;
+    padding-bottom: 45px;
+}
+.end-container{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+.end{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}

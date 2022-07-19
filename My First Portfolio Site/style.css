@@ -1,0 +1,231 @@
+body{
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif; 
+}
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+.menu{
+    min-width: 200px;
+    color: white ;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#banner-image{
+    width: 100%;    
+}
+.banner-title{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 7em;
+    font-family: Georgia, serif;
+}
+.banner-subtitle{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    font-size: 4em;
+    font-family:Georgia, serif;
+}
+.skill-container{
+    width: auto;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+    margin-top: 50px;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    width: 100%;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+}
+#skill-text{
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.skill-heading{
+    margin-top: 50px;
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color : white;
+    background-color:crimson;
+    font-size: 5em;
+    margin-bottom: 100px;
+}
+.skill-title{
+    margin-left: 45%;
+    margin-top: 2px;
+}
+.portfolio-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 1px;
+    font-size: 5em;
+    margin-bottom: 10px;
+    background-color: crimson;
+}
+.portfolio-title{
+    margin-left: 42.5%;
+    margin-top: 5px;
+    color: white;
+}
+.portfolio-container{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 100px;
+}
+#portfolioimg{
+    width: max-content;
+    height: max-content;
+    margin-left: 50px;
+}
+.portfolio-desc{
+    margin-left: 20px;
+}
+.portfolio-name{
+    margin-top: 50px;
+    font-size: 4em;
+    margin-left: 150px;
+}
+.portfolio-info{
+    margin-top: 10px;
+    font-size: 3em;
+    margin-left: 200px;
+    color: gray;
+}
+hr{
+    width: 50%;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.portfolio-container2{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 100px;
+}
+#portfolioimg2{
+    width: 725px;
+    height: 400px;
+    margin-left: 50px;
+}
+.portfolio-desc2{
+    margin-left: 20px;
+}
+.portfolio-name2{
+    margin-top: 50px;
+    font-size: 4em;
+    margin-left: 150px;
+}
+.portfolio-info2{
+    margin-top: 10px;
+    font-size: 3em;
+    margin-left: 200px;
+    color: gray;
+}
+.testimonial-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    margin-top: 80px;
+    font-size: 5em;
+    margin-bottom: 10px;
+    background-color: crimson;
+}
+.testimonial-title{
+    margin-left: 40%;
+    margin-top: 5px;
+    color: white;
+}
+.testimonials{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.client-name{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    font-size: 3.5em;
+    margin-left: 46%;
+}
+.client-designation{
+    width: 100%;
+    height: 50px;
+    font-size: 3em;
+    margin-left: 42.5%;
+    margin-top: 20px;
+    color: gray;
+}
+.client-testimonials{
+    width: 100%;
+    height: 50px;
+    font-size: 2.7em;
+    margin-left: 41%;
+    margin-top: 20px;
+    color: gray;
+}
+.client-name1{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    font-size: 3.5em;
+    margin-left: 45.5%;
+}
+.client-designation1{
+    width: 100%;
+    height: 50px;
+    font-size: 3em;
+    margin-left: 44.5%;
+    margin-top: 20px;
+    color: gray;
+}
+.client-testimonials1{
+    width: 100%;
+    height: 50px;
+    font-size: 2.7em;
+    margin-left: 40.5%;
+    margin-top: 20px;
+    color: gray;
+}
+.Ending{
+    display: flex;
+    widows: 100%;
+    height: 50px;
+    margin-top: 80px;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+}
+.Ending-Title{
+    margin-left: 44.5%;
+    margin-top: 5px;
+    color: white;
+}
